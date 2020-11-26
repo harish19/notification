@@ -1,10 +1,10 @@
 {
-  "name": "notification",
+  "name": "@harish19/notification",
   "version": "1.0.0",
   "description": "react js notification UI component",
   "author": "Harish",
   "license": "MIT",
-  "repository": "Harish/notification",
+  "repository": "git://github.com/harish19/notification.git",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
