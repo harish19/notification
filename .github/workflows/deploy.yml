@@ -17,4 +17,3 @@ jobs:
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        SECRET_CODE: f53712f644645b8ce0acd9cf58df4ad3e73f004f
