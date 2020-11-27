@@ -1,6 +1,6 @@
 {
   "name": "@harish19/notification",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "react js notification UI component",
   "author": "Harish",
   "license": "MIT",
@@ -8,6 +8,7 @@
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
+  "homepage": "https://harish19.github.io/notification",
   "engines": {
     "node": ">=10"
   },
