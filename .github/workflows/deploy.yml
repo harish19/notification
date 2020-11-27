@@ -4,6 +4,9 @@ on:
     branches:
       - main
 jobs:
+  include:
+    - stage: publish
+      script: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}" && npm publish
   build:
     runs-on: ubuntu-latest
     steps:
@@ -14,7 +17,6 @@ jobs:
         node-version: '12.x'
         registry-url: 'https://registry.npmjs.org'
     - run: npm install
-    - run: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
     - run: npm publish
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
