@@ -27,6 +27,7 @@
   "peerDependencies": {
     "react": "^16.0.0"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "cross-env": "^7.0.2",
