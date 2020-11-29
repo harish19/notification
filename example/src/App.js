@@ -1,10 +1,10 @@
 import React from 'react'
 
-import { ExampleComponent } from 'notification'
+import { Notification } from 'notification'
 import 'notification/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Notification text="Simple Notification lib 😄" type="success" timeStamp="10000" />
 }
 
 export default App

@@ -1,9 +1,27 @@
-/* add css module styles here (optional) */
-
-.test {
-  margin: 2em;
-  padding: 0.5em;
-  border: 2px solid #000;
-  font-size: 2em;
+.NotificationContainer{
+  position: fixed;
+  width: 80%;
+  margin:0 auto;
   text-align: center;
+  background-color: aliceblue;
+  margin-top: 2px;
+  border: 1px solid rosybrown;
+  left: 0px;
+  right: 0px;
+}
+.success{
+  background-color: green;
+  color: aliceblue;
+}
+.error{
+  background-color: red;
+}
+.notify{
+  background-color: yellow;
+}
+.close{
+  position: absolute;
+  right: 5px;
+  line-height: 24px;
+  color: inherit;
 }
