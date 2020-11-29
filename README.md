@@ -15,12 +15,11 @@ npm install --save notification
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'notification'
-import 'notification/dist/index.css'
+import Notification from 'notification'
 
 class Example extends Component {
   render() {
-    return <MyComponent />
+    return <Notification text="My Simple Notification lib 😄" type="success" timeStamp="10000" />
   }
 }
 ```
